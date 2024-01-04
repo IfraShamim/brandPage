@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 120rem;
+  width: 100%;
+  overflow-x: hidden !important;
+  font-size: .9vw;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden !important;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 6.5rem;
+  display: flex;
+  padding-top: 1.5rem;
+}
+.logo{
+  width: 20%;
+}
+.logo img{
+  width: 6.75rem;
+  height: 3.472rem;
+  margin-left: 12.5rem;
+}
+.lists{
+  width: 60%;
+}
+.lists ul{
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+.lists ul li{
+  list-style-type: none;
+}
+.lists ul li a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+.btn{
+  width: 20%;
+}
+.btn button{
+  width: 6.688rem;
+  height: 2.938rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  background-color: #D01C28;
+  border: none;
+  outline: none;
+  color: white;
+}
+.container{
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  padding-left: 12.5rem;
+  padding-top: 5rem;
+}
+.left{
+  width: 50%;
+}
+.left h1{
+  font-size: 5.75rem;
+  line-height: 6.375rem;
+}
+.left p{
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+.heroBtn button{
+  width: 8.688rem;
+  height: 2.938rem;
+  font-size: 1.5rem;
+  background-color: #D01C28;
+  margin-right: 3rem;
+  border: none;
+  outline: none;
+  color: white;
+  margin-bottom: 2rem;
+}
+.p{
+  color: #5A5959;
+}
+.img{
+  display: flex;
+  gap: 2rem;
+}
+.img img{
+  width: 2rem;
+  height: 2rem;
+}
+.right{
+  width: 50%;
+}
+.right img{
+  width: 43.125rem;
+  height: 40.441rem;
+}
+#category{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+@media(max-width:802px){
+  .container{
+    display: block;
+    padding-top: 5rem;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
+  nav{
+    height: 10.5rem;
+    padding-top: 3.5rem;
+  }
+  .logo img{
+    width: 18.75rem;
+    height: 7.472rem;
+  }
+  .lists{
+    display: none;
+  }
+  .btn button{
+    width: 15.688rem;
+    height: 6.938rem;
+    font-size: 3.5rem;
+    margin-left: 62rem;
+  }
+  .left h1{
+    font-size: 12.75rem;
+    line-height: 14.375rem;
+    margin-bottom: 2rem;
+  }
+  .left p{
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+  }
+  .heroBtn button{
+    width: 20.688rem;
+    height: 6.938rem;
+    font-size: 3.5rem;
+    margin-right: 6rem;
+  }
+  .img img{
+    width: 7rem;
+    height: 7rem;
+    margin-right: 6rem;
+    margin-bottom: 5rem;
+  }
+  .right img{
+    width: 93.125rem;
+    height: 80.441rem;
+  }
+}
